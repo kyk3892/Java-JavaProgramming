@@ -2,11 +2,11 @@ package Practice;
 
 public class Practice3_9 {
 	
-	enum row {Áã, ¼Ò, ¹ü, Åä³¢, ¿ë, ¹ì, ¸», ¾ç, ¿ø¼şÀÌ, ´ß, °³, µÅÁö};
+	enum row {ì¥, ì†Œ, ë²”, í† ë¼, ìš©, ë±€, ë§, ì–‘, ì›ìˆ­ì´, ë‹­, ê°œ, ë¼ì§€};
 
 	public static void main(String[] args) {
 		int n[] = {1,2,3,4,5};
-		String name[] = {"¶±ººÀÌ","ÇÇÀÚ","Â«»Í","¸¶¶óÅÁ","¶ó¸é"};
+		String name[] = {"ë–¡ë³¶ì´","í”¼ì","ì§¬ë½•","ë§ˆë¼íƒ•","ë¼ë©´"};
 		
 		int sum =0;
 		
@@ -14,14 +14,14 @@ public class Practice3_9 {
 			System.out.print(num+" ");
 			sum +=num;
 		}
-		System.out.print("ÇÕÀº "+sum);
+		System.out.print("í•©ì€ "+sum);
 		System.out.println();
 		for(String food :name) {
 			System.out.print(food+" ");
 		}
 		System.out.println();
 		for(row bon : row.values()) {
-			System.out.print(bon+"¶ì ");
+			System.out.print(bon+"ë  ");
 		}
 	}
 

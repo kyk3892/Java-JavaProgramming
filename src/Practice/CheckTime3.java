@@ -10,7 +10,7 @@ public class CheckTime3 {
 				num+= i;
 			}
 		}
-		System.out.println("1~100±îÁö 3ÀÇ ¹è¼öÀÇ ÇÕ : "+num);
+		System.out.println("1~100ê¹Œì§€ 3ì˜ ë°°ìˆ˜ì˜ í•© : "+num);
 	}
 
 }

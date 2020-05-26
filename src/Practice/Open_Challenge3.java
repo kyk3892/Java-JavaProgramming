@@ -13,7 +13,7 @@ public class Open_Challenge3 {
 			int num;
 			int min =0;
 			int max =99;
-			System.out.println("¼ö¸¦ °áÁ¤ÇÏ¿´½À´Ï´Ù. ¸ÂÃß¾î º¸¼¼¿ä");
+			System.out.println("ìˆ˜ë¥¼ ê²°ì •í•˜ì˜€ìŠµë‹ˆë‹¤. ë§ì¶”ì–´ ë³´ì„¸ìš”");
 			System.out.println("0~99");
 			Scanner sc = new Scanner(System.in);
 			Scanner ac = new Scanner(System.in);
@@ -21,24 +21,24 @@ public class Open_Challenge3 {
 				System.out.print(i+">>");	
 				num = sc.nextInt();
 				if(num<ran){
-					System.out.println("´õ ³ô°Ô");
+					System.out.println("ë” ë†’ê²Œ");
 					min=num;
 					System.out.println(num+"-"+max);
 				}
 				else if(num>ran) {
-					System.out.println("´õ ³·°Ô");
+					System.out.println("ë” ë‚®ê²Œ");
 					System.out.println(min+"-"+num);
 					max=num;
 				}
 				else {
-					System.out.println("¸Â¾Ò½À´Ï´Ù.");
-					System.out.print("´Ù½ÃÇÏ½Ã°Ú½À´Ï±î?(y/n)>>");
+					System.out.println("ë§ì•˜ìŠµë‹ˆë‹¤.");
+					System.out.print("ë‹¤ì‹œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?(y/n)>>");
 					String again = ac.nextLine();
 					if(again.equals("y")) {
 						break;
 					}
 					else {
-						System.out.println("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.");
+						System.out.println("í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 						System.exit(0);
 					}
 				}

@@ -3,14 +3,14 @@ package Practice;
 public class Practice3_11 {
 
 	public static void main(String[] args) {
-		char movie[][] = new char [5][]; //¹®ÀÚ·Î ¹Ş¾Æ¾ßµÊ
+		char movie[][] = new char [5][]; //ë¬¸ìë¡œ ë°›ì•„ì•¼ë¨
 		movie[0] = new char [7];
 		movie[1] = new char [5];
 		movie[2] = new char [5];
 		movie[3] = new char [7];
 		movie[4] = new char [10];
 		
-		System.out.println("¿µÈ­°ü ÀÚ¸®");
+		System.out.println("ì˜í™”ê´€ ìë¦¬");
 		System.out.println();
 		for(int i=0; i<movie.length; i++) {
 			for(int j=0; j<movie[i].length; j++) {

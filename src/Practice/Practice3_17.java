@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Practice3_17 {
 
 	public static void main(String[] args) {
-		System.out.println("Á¤¼ö 3°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ì •ìˆ˜ 3ê°œë¥¼ ìž…ë ¥í•˜ì„¸ìš”");
 		Scanner sc = new Scanner(System.in);
 		int i,num,sum=0;
 		for(i=0; i<3; i++) {
@@ -15,14 +15,14 @@ public class Practice3_17 {
 				num = sc.nextInt();	
 			}
 			catch(InputMismatchException a){
-				System.out.println("Á¤¼ö°¡ ¾Æ´Õ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä!");
+				System.out.println("ì •ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤. ë‹¤ì‹œ ìž…ë ¥í•˜ì„¸ìš”!");
 				sc.nextLine();
 				i--;
 				continue;
 			}
 			sum += num;
 		}
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("í•©ì€ "+sum);
 	}
 
 }

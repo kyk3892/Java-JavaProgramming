@@ -8,11 +8,11 @@ public class Practice3_18 {
 		try{
 			for(i=0; i<num.length; i++) {
 				int change = Integer.parseInt(num[i]);
-				System.out.println("Á¤¼ö·Î º¯È¯µÈ °ªÀº "+change);
+				System.out.println("ì •ìˆ˜ë¡œ ë³€í™˜ëœ ê°’ì€ "+change);
 			}
 		}
 		catch(NumberFormatException a){
-			System.out.println(num[i]+"´Â Á¤¼ö·Î º¯È¯ÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println(num[i]+"ëŠ” ì •ìˆ˜ë¡œ ë³€í™˜í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}
 	}
 }

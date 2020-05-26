@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Actuality2_1 {
 
 	public static void main(String[] args) {
-		System.out.print("¿øÈ­¸¦ ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§ ¿ø)>>");
+		System.out.print("ì›í™”ë¥¼ ì…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„ ì›)>>");
 		Scanner sc = new Scanner(System.in);
 		int money = sc.nextInt();
 		double dollar = (double)money/1100;
-		System.out.println(money+"¿øÀº $"+dollar+"ÀÔ´Ï´Ù.");
+		System.out.println(money+"ì›ì€ $"+dollar+"ì…ë‹ˆë‹¤.");
 	}
 
 }

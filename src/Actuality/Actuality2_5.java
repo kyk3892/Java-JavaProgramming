@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Actuality2_5 {
 
 	public static void main(String[] args) {
-		System.out.print("Á¤¼ö 3°³¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("ì •ìˆ˜ 3ê°œë¥¼ ì…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		if(a+b>=c || b+c>a || a+c>b){
-			System.out.println("»ï°¢ÇüÀÌ µË´Ï´Ù.");
+			System.out.println("ì‚¼ê°í˜•ì´ ë©ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("»ï°¢ÇüÀÌ ¾ÈµË´Ï´Ù.");
+			System.out.println("ì‚¼ê°í˜•ì´ ì•ˆë©ë‹ˆë‹¤.");
 		}
 	}
 

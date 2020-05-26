@@ -5,32 +5,32 @@ import java.util.Scanner;
 public class Actuality2_11_2 {
 
 	public static void main(String[] args) {
-		System.out.print("´ŞÀ» ÀÔ·ÂÇÏ¼¼¿ä(1~12)>>");
+		System.out.print("ë‹¬ì„ ì…ë ¥í•˜ì„¸ìš”(1~12)>>");
 		Scanner sc = new Scanner(System.in);
 		int month = sc.nextInt();
 		switch(month) {
 			case 3:
 			case 4:
 			case 5:
-				System.out.println("º½");
+				System.out.println("ë´„");
 				break;
 			case 6:
 			case 7:
 			case 8:
-				System.out.println("¿©¸§");
+				System.out.println("ì—¬ë¦„");
 				break;
 			case 9:
 			case 10:
 			case 11:
-				System.out.println("°¡À»");
+				System.out.println("ê°€ì„");
 				break;
 			case 12:
 			case 1:
 			case 2:
-				System.out.println("°Ü¿ï");
+				System.out.println("ê²¨ìš¸");
 				break;
 			default:
-				System.out.println("Àß¸øÀÔ·Â");
+				System.out.println("ì˜ëª»ì…ë ¥");
 				break;
 		}
 

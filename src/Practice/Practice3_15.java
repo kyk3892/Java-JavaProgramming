@@ -6,18 +6,18 @@ public class Practice3_15 {
 
 	public static void main(String[] args) {
 		while(true) {
-			System.out.print("³ª´¸¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+			System.out.print("ë‚˜ë‰¨ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 			Scanner sc = new Scanner(System.in);
 			int num = sc.nextInt();
-			System.out.print("³ª´°¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+			System.out.print("ë‚˜ëˆ—ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 			int num2 = sc.nextInt();
 			try {
 				int result = num/num2;
-				System.out.println(num+"¸¦(À») "+num2+"·Î ³ª´©¸é ¸òÀº "+result+"ÀÔ´Ï´Ù.");
+				System.out.println(num+"ë¥¼(ì„) "+num2+"ë¡œ ë‚˜ëˆ„ë©´ ëª«ì€ "+result+"ì…ë‹ˆë‹¤.");
 				break;
 			}
 			catch(ArithmeticException a){
-				System.out.println("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù! ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä");
+				System.out.println("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤! ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”");
 			}	
 		}
 	}

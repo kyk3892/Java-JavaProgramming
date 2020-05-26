@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality2_6 {
 
 	public static void main(String[] args) {
-		System.out.print("1~99 »çÀÌÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("1~99 ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		int share = num/10;
@@ -13,14 +13,14 @@ public class Actuality2_6 {
 		
 		if(share==3 || share==6 || share==9){
 			if(rest==3 || rest==6 || rest==9) {
-				System.out.println("¹Ú¼öÂ¦Â¦");
+				System.out.println("ë°•ìˆ˜ì§ì§");
 			}
 			else {
-				System.out.println("¹Ú¼öÂ¦");
+				System.out.println("ë°•ìˆ˜ì§");
 			}
 		}
 		else if(rest==3 || rest==6 || rest==9){
-			System.out.println("¹Ú¼öÂ¦");
+			System.out.println("ë°•ìˆ˜ì§");
 		}
 		else {
 			System.out.println();

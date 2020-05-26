@@ -6,47 +6,47 @@ public class Open_Challenge2 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("°¡À§¹ÙÀ§º¸ °ÔÀÓÀÔ´Ï´Ù. °¡À§, ¹ÙÀ§, º¸ Áß¿¡¼­ ÀÔ·ÂÇÏ¼¼¿ä");
-		System.out.print("Ã¶¼ö >> ");
+		System.out.println("ê°€ìœ„ë°”ìœ„ë³´ ê²Œì„ì…ë‹ˆë‹¤. ê°€ìœ„, ë°”ìœ„, ë³´ ì¤‘ì—ì„œ ì…ë ¥í•˜ì„¸ìš”");
+		System.out.print("ì² ìˆ˜ >> ");
 		Scanner sc = new Scanner(System.in);
 		String a = sc.nextLine();
-		System.out.print("¿µÈñ >> ");
+		System.out.print("ì˜í¬ >> ");
 		String b = sc.nextLine();
-		if(a.equals("°¡À§")){
-			if(b.equals("°¡À§")) {
-				System.out.println("ºñ°å½À´Ï´Ù.");
+		if(a.equals("ê°€ìœ„")){
+			if(b.equals("ê°€ìœ„")) {
+				System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 			}
-			else if(b.equals("¹ÙÀ§")){
-				System.out.println("¿µÈñ°¡ ÀÌ°å½À´Ï´Ù.");
+			else if(b.equals("ë°”ìœ„")){
+				System.out.println("ì˜í¬ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 			}
-			else if(b.equals("º¸")){
-				System.out.println("Ã¶¼ö°¡ ÀÌ°å½À´Ï´Ù.");
-			}
-		}
-		else if(a.equals("¹ÙÀ§")){
-			if(b.equals("°¡À§")) {
-				System.out.println("Ã¶¼ö°¡ ÀÌ°å½À´Ï´Ù.");
-			}
-			else if(b.equals("¹ÙÀ§")){
-				System.out.println("ºñ°å½À´Ï´Ù.");
-			}
-			else if(b.equals("º¸")){
-				System.out.println("¿µÈñ°¡ ÀÌ°å½À´Ï´Ù.");
+			else if(b.equals("ë³´")){
+				System.out.println("ì² ìˆ˜ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 			}
 		}
-		else if(a.equals("º¸")){
-			if(b.equals("°¡À§")) {
-				System.out.println("¿µÈñ°¡ ÀÌ°å½À´Ï´Ù.");
+		else if(a.equals("ë°”ìœ„")){
+			if(b.equals("ê°€ìœ„")) {
+				System.out.println("ì² ìˆ˜ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 			}
-			else if(b.equals("¹ÙÀ§")){
-				System.out.println("Ã¶¼ö°¡ ÀÌ°å½À´Ï´Ù.");
+			else if(b.equals("ë°”ìœ„")){
+				System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 			}
-			else if(b.equals("º¸")){
-				System.out.println("ºñ°å½À´Ï´Ù.");
+			else if(b.equals("ë³´")){
+				System.out.println("ì˜í¬ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+			}
+		}
+		else if(a.equals("ë³´")){
+			if(b.equals("ê°€ìœ„")) {
+				System.out.println("ì˜í¬ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+			}
+			else if(b.equals("ë°”ìœ„")){
+				System.out.println("ì² ìˆ˜ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+			}
+			else if(b.equals("ë³´")){
+				System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 			}
 		}
 		else {
-			System.out.println("°¡À§, ¹ÙÀ§, º¸ Áß ÇÏ³ª¸¦ ÀÔ·ÂÇØÁÖ½Ê½Ã¿À.");
+			System.out.println("ê°€ìœ„, ë°”ìœ„, ë³´ ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•´ì£¼ì‹­ì‹œì˜¤.");
 		}
 	}
 

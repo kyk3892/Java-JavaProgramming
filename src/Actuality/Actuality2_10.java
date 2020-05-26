@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class Actuality2_10 {
 
 	public static void main(String[] args) {
-		System.out.print("Ã¹¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>>");
+		System.out.print("ì²«ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>>");
 		Scanner sc = new Scanner(System.in);
 		double x = sc.nextDouble();
 		double y = sc.nextDouble();
 		double r = sc.nextDouble();
-		System.out.print("µÎ¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>>");
+		System.out.print("ë‘ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>>");
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
 		double r2 = sc.nextDouble();
 		double twodot = Math.sqrt(((x-a)*(x-a))+((y-b)*(y-b)));
 		
 		if(twodot<=r+r2) {
-			System.out.println("µÎ ¿øÀº ¼­·Î °ãÄ£´Ù.");
+			System.out.println("ë‘ ì›ì€ ì„œë¡œ ê²¹ì¹œë‹¤.");
 		}
 		else {
-			System.out.println("µÎ ¿øÀº ¼­·Î °ãÄ¡Áö ¾Ê´Â´Ù.");
+			System.out.println("ë‘ ì›ì€ ì„œë¡œ ê²¹ì¹˜ì§€ ì•ŠëŠ”ë‹¤.");
 		}
 
 	}

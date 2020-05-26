@@ -3,7 +3,7 @@ package Actuality;
 public class Actuality3_7 {
 
 	public static void main(String[] args) {
-		System.out.print("·£´ıÇÑ Á¤¼öµé : ");
+		System.out.print("ëœë¤í•œ ì •ìˆ˜ë“¤ : ");
 		int num[] = new int [10];
 		int sum=0;
 		for(int i=0; i<num.length; i++) {
@@ -12,7 +12,7 @@ public class Actuality3_7 {
 			sum+=num[i];
 			System.out.print(ran+" ");
 		}
-		System.out.println("\nÆò±ÕÀº "+(double)sum/10);
+		System.out.println("\ní‰ê· ì€ "+(double)sum/10);
 	}
 
 }

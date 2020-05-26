@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class Actuality2_11 {
 
 	public static void main(String[] args) {
-		System.out.print("´ÞÀ» ÀÔ·ÂÇÏ¼¼¿ä(1~12)>>");
+		System.out.print("ë‹¬ì„ ìž…ë ¥í•˜ì„¸ìš”(1~12)>>");
 		Scanner sc = new Scanner(System.in);
 		int month = sc.nextInt();
 		if(month>=3 && month<=5) {
-			System.out.println("º½");
+			System.out.println("ë´„");
 		}
 		else if(month>=6 && month<=8) {
-			System.out.println("¿©¸§");
+			System.out.println("ì—¬ë¦„");
 		}
 		else if(month>=9 && month<=11) {
-			System.out.println("°¡À»");
+			System.out.println("ê°€ì„");
 		}
 		else if(month==12 || month==1 || month==2) {
-			System.out.println("°Ü¿ï");
+			System.out.println("ê²¨ìš¸");
 		}
 		else {
-			System.out.println("Àß¸øÀÔ·Â");
+			System.out.println("ìž˜ëª»ìž…ë ¥");
 		}
 
 	}

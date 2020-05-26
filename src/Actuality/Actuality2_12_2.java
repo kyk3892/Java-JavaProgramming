@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality2_12_2 {
 
 	public static void main(String[] args) {
-		System.out.print("¿¬»ê>>");
+		System.out.print("ì—°ì‚°>>");
 		Scanner sc = new Scanner(System.in);
 		double n = sc.nextDouble();
 		String s = sc.next();
@@ -23,17 +23,17 @@ public class Actuality2_12_2 {
 				 break;
 			case "/" :
 				 if(n2==0) {
-					 System.out.println("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.");
+					 System.out.println("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 				 }
 				 else {
 					 a= n/n2;
 					 break; 
 				 }
 			default:
-				System.out.println("¿¬»êÀÚ +,-,*,/ Áß¿¡¼­ ¼±ÅÃÇÏ½Ê½Ã¿À");
+				System.out.println("ì—°ì‚°ì +,-,*,/ ì¤‘ì—ì„œ ì„ íƒí•˜ì‹­ì‹œì˜¤");
 				return;
 		}
-		System.out.println(n+s+n2+"ÀÇ °è»ê °á°ú´Â "+a);
+		System.out.println(n+s+n2+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+a);
 	}
 
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality3_3 {
 
 	public static void main(String[] args) {
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿ä>>");
+		System.out.print("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œìš”>>");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		for(int i=0; i<num; i++) {

@@ -12,7 +12,7 @@ public class Practice3_10 {
 		}
 		int rows = score.length;
 		int cols = score[0].length; 
-		System.out.println("4³â ÀüÃ¼ ÆòÁ¡ Æò±ÕÀº "+sum/(rows*cols));
+		System.out.println("4ë…„ ì „ì²´ í‰ì  í‰ê· ì€ "+sum/(rows*cols));
 	}
 
 }

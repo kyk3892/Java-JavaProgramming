@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Actuality2_7 {
 
 	public static void main(String[] args) {
-		System.out.print("Á¡ (x,y)ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("ì  (x,y)ì˜ ì¢Œí‘œë¥¼ ìž…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner sc = new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		if(100<=a && a<=200 && 100<=b && b<=200) {
-			System.out.println("("+a+","+b+")´Â »ç°¢Çü ¾È¿¡ ÀÖ½À´Ï´Ù.");
+			System.out.println("("+a+","+b+")ëŠ” ì‚¬ê°í˜• ì•ˆì— ìžˆìŠµë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("("+a+","+b+")´Â »ç°¢Çü ¾È¿¡ ¾ø½À´Ï´Ù.");
+			System.out.println("("+a+","+b+")ëŠ” ì‚¬ê°í˜• ì•ˆì— ì—†ìŠµë‹ˆë‹¤.");
 		}
 
 	}

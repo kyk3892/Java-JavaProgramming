@@ -6,7 +6,7 @@ public class Practice2_14 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100) : ");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”(0~100) : ");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		char grade;
@@ -15,7 +15,7 @@ public class Practice2_14 {
 			case 10:
 			case 9:
 				grade = 'A';
-				break; //break ¾È²÷¾îÁÖ¸é °è¼Ó ÁøÇàÇÔ
+				break; //break ì•ˆëŠì–´ì£¼ë©´ ê³„ì† ì§„í–‰í•¨
 			case 8:
 				grade='B';
 				break;
@@ -29,7 +29,7 @@ public class Practice2_14 {
 				grade='F';
 				break;
 		}
-		System.out.println("´ç½ÅÀÇ µî±ŞÀº "+grade+"ÀÔ´Ï´Ù.");
+		System.out.println("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ "+grade+"ì…ë‹ˆë‹¤.");
 	}
 
 }

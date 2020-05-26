@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Actuality2_9 {
 
 	public static void main(String[] args) {
-		System.out.print("¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>>");
+		System.out.print("ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>>");
 		Scanner sc = new Scanner(System.in);
 		double x=sc.nextDouble();
 		double y=sc.nextDouble();
 		double r=sc.nextDouble();
-		System.out.print("Á¡ ÀÔ·Â>>");
+		System.out.print("ì  ìž…ë ¥>>");
 		double a=sc.nextDouble();
 		double b=sc.nextDouble();
 		if(Math.sqrt(((x-a)*(x-a))+((y-b)*(y-b)))<=r){
-			System.out.println("Á¡ ("+a+", "+b+")´Â ¿ø ¾È¿¡ ÀÖ´Ù.");
+			System.out.println("ì  ("+a+", "+b+")ëŠ” ì› ì•ˆì— ìžˆë‹¤.");
 		}
 		else {
-			System.out.println("Á¡ ("+a+", "+b+")´Â ¿ø ¾È¿¡ ¾ø´Ù.");
+			System.out.println("ì  ("+a+", "+b+")ëŠ” ì› ì•ˆì— ì—†ë‹¤.");
 		}
 	}
 

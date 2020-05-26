@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Practice3_5 {
 
 	public static void main(String[] args) {
-		System.out.println("Á¤¼ö¸¦ 5°³ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì •ìˆ˜ë¥¼ 5ê°œ ìž…ë ¥í•˜ì„¸ìš”.");
 		Scanner sc = new Scanner(System.in);
 		int num,sum=0;
 		for(int i=0; i<5; i++) {
@@ -17,7 +17,7 @@ public class Practice3_5 {
 				sum += num;
 			}
 		}
-		System.out.println("¾ç¼öÀÇ ÇÕÀº "+sum);
+		System.out.println("ì–‘ìˆ˜ì˜ í•©ì€ "+sum);
 
 	}
 

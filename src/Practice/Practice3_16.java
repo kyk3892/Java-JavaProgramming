@@ -11,7 +11,7 @@ public class Practice3_16 {
 			}
 		}
 		catch(ArrayIndexOutOfBoundsException a){
-			System.out.println("¹è¿­ÀÇ ÀÎµ¦½º°¡ ¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù.");
+			System.out.println("ë°°ì—´ì˜ ì¸ë±ìŠ¤ê°€ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤.");
 		}
 
 	}

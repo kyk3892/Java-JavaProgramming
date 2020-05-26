@@ -7,7 +7,7 @@ public class Actuality3_15 {
 
 	public static void main(String[] args) {
 		while(true) {
-			System.out.print("°öÇÏ°íÀÚ ÇÏ´Â µÎ ¼ö ÀÔ·Â>>");
+			System.out.print("ê³±í•˜ê³ ì í•˜ëŠ” ë‘ ìˆ˜ ì…ë ¥>>");
 			Scanner sc = new Scanner(System.in);
 			try {
 				int n=sc.nextInt();
@@ -17,7 +17,7 @@ public class Actuality3_15 {
 			}
 			catch(InputMismatchException a){
 				sc.nextLine();
-				System.out.println("½Ç¼ö´Â ÀÔ·ÂÇÏ¸é ¾ÈµË´Ï´Ù.");
+				System.out.println("ì‹¤ìˆ˜ëŠ” ì…ë ¥í•˜ë©´ ì•ˆë©ë‹ˆë‹¤.");
 			}	
 		}
 	}

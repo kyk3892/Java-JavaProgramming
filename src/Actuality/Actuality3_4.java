@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality3_4 {
 
 	public static void main(String[] args) {
-		System.out.print("¼Ò¹®ÀÚ ¾ËÆÄºª ÇÏ³ª¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("ì†Œë¬¸ìž ì•ŒíŒŒë²³ í•˜ë‚˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner sc = new Scanner(System.in);
 		String alph = sc.next();
 		char alphbet = alph.charAt(0);

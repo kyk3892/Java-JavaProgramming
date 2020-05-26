@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality2_8 {
 
 	public static void main(String[] args) {
-		System.out.print("µÎ Á¡ (x1,y1), (x2,y2)¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("ë‘ ì  (x1,y1), (x2,y2)ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();

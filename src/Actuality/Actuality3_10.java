@@ -11,15 +11,15 @@ public class Actuality3_10 {
 				array[i][j]=ran;
 			}
 		}
-		while(count<6) { //6°³ÀÇ 0À» ¸¸µé°Å
-			int dom = (int)(Math.random()*4); //1~4ÁÙ ÀüºÎ´Ù 0ÀÌ ³ª¿À°Ô
-			int dom2 = (int)(Math.random()*4); //1~4ÁÙ ÀüºÎ´Ù 0ÀÌ ³ª¿À°Ô
-			if(array[dom][dom2]!=0) { //¸ðµÎ ´Ù 0À¸·Î ³ª¿À°Ô ¹Ù²Ù´Â°Å
+		while(count<6) { //6ê°œì˜ 0ì„ ë§Œë“¤ê±°
+			int dom = (int)(Math.random()*4); //1~4ì¤„ ì „ë¶€ë‹¤ 0ì´ ë‚˜ì˜¤ê²Œ
+			int dom2 = (int)(Math.random()*4); //1~4ì¤„ ì „ë¶€ë‹¤ 0ì´ ë‚˜ì˜¤ê²Œ
+			if(array[dom][dom2]!=0) { //ëª¨ë‘ ë‹¤ 0ìœ¼ë¡œ ë‚˜ì˜¤ê²Œ ë°”ê¾¸ëŠ”ê±°
 				array[dom][dom2]=0;
-				count++;	//0 6°³ ³ÖÀ¸¸é ³ª¿À°Ô ++
+				count++;	//0 6ê°œ ë„£ìœ¼ë©´ ë‚˜ì˜¤ê²Œ ++
 			}
 		}
-		for(int i=0; i<array.length; i++) { //Ãâ·ÂÇÏ·Á°í
+		for(int i=0; i<array.length; i++) { //ì¶œë ¥í•˜ë ¤ê³ 
 			for(int j=0; j<array[i].length; j++) {
 				System.out.print(array[i][j]+" ");
 			}

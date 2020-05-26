@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality2_3 {
 
 	public static void main(String[] args) {
-		System.out.print("±İ¾×À» ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("ê¸ˆì•¡ì„ ì…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner sc = new Scanner(System.in);
 		int money = sc.nextInt();
 		
@@ -18,14 +18,14 @@ public class Actuality2_3 {
 		int ten = (int)money%50/10;
 		int one = (int)money%10/1;
 		
-		System.out.println("¿À¸¸¿ø±Ç "+fiveman+"¸Å");
-		System.out.println("¸¸¿ø±Ç "+man+"¸Å");
-		System.out.println("Ãµ¿ø±Ç "+thousand+"¸Å");
-		System.out.println("¿À¹é¿ø "+fivehd+"¸Å");
-		System.out.println("¹é¿ø "+onehd+"¸Å");
-		System.out.println("¿À½Ê¿ø "+fitten+"¸Å");
-		System.out.println("½Ê¿ø "+ten+"¸Å");
-		System.out.println("ÀÏ¿ø "+one+"¸Å");
+		System.out.println("ì˜¤ë§Œì›ê¶Œ "+fiveman+"ë§¤");
+		System.out.println("ë§Œì›ê¶Œ "+man+"ë§¤");
+		System.out.println("ì²œì›ê¶Œ "+thousand+"ë§¤");
+		System.out.println("ì˜¤ë°±ì› "+fivehd+"ë§¤");
+		System.out.println("ë°±ì› "+onehd+"ë§¤");
+		System.out.println("ì˜¤ì‹­ì› "+fitten+"ë§¤");
+		System.out.println("ì‹­ì› "+ten+"ë§¤");
+		System.out.println("ì¼ì› "+one+"ë§¤");
 
 	}
 

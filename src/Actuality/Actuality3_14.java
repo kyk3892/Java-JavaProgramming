@@ -6,25 +6,25 @@ public class Actuality3_14 {
 
 	public static void main(String[] args) {
 		while(true) {
-			System.out.print("°ú¸ñ ÀÌ¸§>>");
+			System.out.print("ê³¼ëª© ì´ë¦„>>");
 			Scanner sc = new Scanner(System.in);
 			String a=sc.next();
-			String course[] = {"Java", "C++", "HTML5", "ÄÄÇ»ÅÍ±¸Á¶", "¾Èµå·ÎÀÌµå"};
+			String course[] = {"Java", "C++", "HTML5", "ì»´í“¨í„°êµ¬ì¡°", "ì•ˆë“œë¡œì´ë“œ"};
 			int score[] = {95, 88, 76, 62, 55};
 			int count = 1;
-			if(a.equals("±×¸¸")) {
+			if(a.equals("ê·¸ë§Œ")) {
 				count=0;
 				break;
 			}
 			for(int i=0;i<5;i++) {
 				if(a.equals(course[i])) {
 					int num = score[i];
-					System.out.println(course[i]+"ÀÇ Á¡¼ö´Â "+score[i]);
+					System.out.println(course[i]+"ì˜ ì ìˆ˜ëŠ” "+score[i]);
 					count=0;
 				}	
 			}
 			if(count==1) {
-				System.out.println("¾ø´Â °ú¸ñÀÔ´Ï´Ù.");
+				System.out.println("ì—†ëŠ” ê³¼ëª©ì…ë‹ˆë‹¤.");
 				
 			}
 		}

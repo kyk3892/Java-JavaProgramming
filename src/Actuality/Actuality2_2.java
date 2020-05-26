@@ -6,17 +6,17 @@ public class Actuality2_2 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("2ÀÚ¸®¼ö Á¤¼ö ÀÔ·Â(10~99)>>");
+		System.out.print("2ìë¦¬ìˆ˜ ì •ìˆ˜ ì…ë ¥(10~99)>>");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		int share = num/10;
 		int rest = num%10;
 		
 		if(share==rest) {
-			System.out.println("Yes! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°½À´Ï´Ù.");
+			System.out.println("Yes! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ìŠµë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("No! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°Áö¾Ê½À´Ï´Ù.");
+			System.out.println("No! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ì§€ì•ŠìŠµë‹ˆë‹¤.");
 		}
 	}
 

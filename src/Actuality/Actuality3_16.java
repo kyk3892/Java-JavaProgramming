@@ -5,53 +5,53 @@ import java.util.Scanner;
 public class Actuality3_16 {
 
 	public static void main(String[] args) {
-		System.out.println("ÄÄÇ»ÅÍ¿Í °¡À§ ¹ÙÀ§ º¸ °ÔÀÓÀ» ÇÕ´Ï´Ù.");
+		System.out.println("ì»´í“¨í„°ì™€ ê°€ìœ„ ë°”ìœ„ ë³´ ê²Œì„ì„ í•©ë‹ˆë‹¤.");
 		
 		while(true) {
-			System.out.print("°¡À§ ¹ÙÀ§ º¸!>>");
+			System.out.print("ê°€ìœ„ ë°”ìœ„ ë³´!>>");
 			Scanner sc = new Scanner(System.in);
 			String game = sc.next();
-			String str[] = {"°¡À§","¹ÙÀ§","º¸"};
+			String str[] = {"ê°€ìœ„","ë°”ìœ„","ë³´"};
 			int ran=(int)(Math.random()*3);
 			
-			if(str[ran].equals("°¡À§")) {
-				if(game.equals("°¡À§")) {
-					System.out.println("»ç¿ëÀÚ = °¡À§, ÄÄÇ»ÅÍ = °¡À§, ºñ°å½À´Ï´Ù.");
+			if(str[ran].equals("ê°€ìœ„")) {
+				if(game.equals("ê°€ìœ„")) {
+					System.out.println("ì‚¬ìš©ì = ê°€ìœ„, ì»´í“¨í„° = ê°€ìœ„, ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 				}
-				else if(game.equals("¹ÙÀ§")) {
-					System.out.println("»ç¿ëÀÚ = ¹ÙÀ§, ÄÄÇ»ÅÍ = °¡À§, »ç¿ëÀÚ°¡ ÀÌ°å½À´Ï´Ù.");
+				else if(game.equals("ë°”ìœ„")) {
+					System.out.println("ì‚¬ìš©ì = ë°”ìœ„, ì»´í“¨í„° = ê°€ìœ„, ì‚¬ìš©ìê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 				}
-				else if(game.equals("º¸")) {
-					System.out.println("»ç¿ëÀÚ = º¸, ÄÄÇ»ÅÍ = °¡À§, ÄÄÇ»ÅÍ°¡ ÀÌ°å½À´Ï´Ù.");
-				}
-			}
-			
-			if(str[ran].equals("¹ÙÀ§")) {
-				if(game.equals("°¡À§")) {
-					System.out.println("»ç¿ëÀÚ = °¡À§, ÄÄÇ»ÅÍ = ¹ÙÀ§, ÄÄÇ»ÅÍ°¡ ÀÌ°å½À´Ï´Ù.");
-				}
-				else if(game.equals("¹ÙÀ§")) {
-					System.out.println("»ç¿ëÀÚ = ¹ÙÀ§, ÄÄÇ»ÅÍ = ¹ÙÀ§, ºñ°å½À´Ï´Ù.");
-				}
-				else if(game.equals("º¸")) {
-					System.out.println("»ç¿ëÀÚ = º¸, ÄÄÇ»ÅÍ = ¹ÙÀ§, »ç¿ëÀÚ°¡ ÀÌ°å½À´Ï´Ù.");
+				else if(game.equals("ë³´")) {
+					System.out.println("ì‚¬ìš©ì = ë³´, ì»´í“¨í„° = ê°€ìœ„, ì»´í“¨í„°ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 				}
 			}
 			
-			if(str[ran].equals("º¸")) {
-				if(game.equals("°¡À§")) {
-					System.out.println("»ç¿ëÀÚ = °¡À§, ÄÄÇ»ÅÍ = º¸, »ç¿ëÀÚ°¡ ÀÌ°å½À´Ï´Ù.");
+			if(str[ran].equals("ë°”ìœ„")) {
+				if(game.equals("ê°€ìœ„")) {
+					System.out.println("ì‚¬ìš©ì = ê°€ìœ„, ì»´í“¨í„° = ë°”ìœ„, ì»´í“¨í„°ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 				}
-				else if(game.equals("¹ÙÀ§")) {
-					System.out.println("»ç¿ëÀÚ = ¹ÙÀ§, ÄÄÇ»ÅÍ = º¸, ÄÄÇ»ÅÍ°¡ ÀÌ°å½À´Ï´Ù.");
+				else if(game.equals("ë°”ìœ„")) {
+					System.out.println("ì‚¬ìš©ì = ë°”ìœ„, ì»´í“¨í„° = ë°”ìœ„, ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 				}
-				else if(game.equals("º¸")) {
-					System.out.println("»ç¿ëÀÚ = º¸, ÄÄÇ»ÅÍ = º¸, ºñ°å½À´Ï´Ù.");
+				else if(game.equals("ë³´")) {
+					System.out.println("ì‚¬ìš©ì = ë³´, ì»´í“¨í„° = ë°”ìœ„, ì‚¬ìš©ìê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 				}
 			}
 			
-			if(game.equals("±×¸¸")) {
-				System.out.println("°ÔÀÓÀ» Á¾·áÇÕ´Ï´Ù...");
+			if(str[ran].equals("ë³´")) {
+				if(game.equals("ê°€ìœ„")) {
+					System.out.println("ì‚¬ìš©ì = ê°€ìœ„, ì»´í“¨í„° = ë³´, ì‚¬ìš©ìê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+				}
+				else if(game.equals("ë°”ìœ„")) {
+					System.out.println("ì‚¬ìš©ì = ë°”ìœ„, ì»´í“¨í„° = ë³´, ì»´í“¨í„°ê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
+				}
+				else if(game.equals("ë³´")) {
+					System.out.println("ì‚¬ìš©ì = ë³´, ì»´í“¨í„° = ë³´, ë¹„ê²¼ìŠµë‹ˆë‹¤.");
+				}
+			}
+			
+			if(game.equals("ê·¸ë§Œ")) {
+				System.out.println("ê²Œì„ì„ ì¢…ë£Œí•©ë‹ˆë‹¤...");
 				break;
 			}
 		

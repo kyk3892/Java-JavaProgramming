@@ -5,39 +5,39 @@ import java.util.Scanner;
 public class Actuality2_12 {
 
 	public static void main(String[] args) {
-		System.out.print("¿¬»ê>>");
+		System.out.print("ì—°ì‚°>>");
 		Scanner sc = new Scanner(System.in);
 		double n = sc.nextDouble();
 		String s = sc.next();
 		double n2 = sc.nextDouble();
 		if(s.equals("+")) {
 			double sum = n+n2;
-			System.out.println(n+s+n2+"ÀÇ °è»ê °á°ú´Â "+sum);
+			System.out.println(n+s+n2+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+sum);
 		}
 		else if(s.equals("+")) {
 			double sum = n+n2;
-			System.out.println(n+s+n2+"ÀÇ °è»ê °á°ú´Â "+sum);
+			System.out.println(n+s+n2+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+sum);
 		}
 		else if(s.equals("-")) {
 			double m = n-n2;
-			System.out.println(n+s+n2+"ÀÇ °è»ê °á°ú´Â "+m);
+			System.out.println(n+s+n2+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+m);
 		}
 		else if(s.equals("*")) {
 			double p = n*n2;
-			System.out.println(n+s+n2+"ÀÇ °è»ê °á°ú´Â "+p);
+			System.out.println(n+s+n2+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+p);
 		}
 		else if(s.equals("/")) {
 			if(n2==0) {
-				System.out.println("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.");
+				System.out.println("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 			}
 			else {
 				double h = n/n2;
-				System.out.println(n+s+n2+"ÀÇ °è»ê °á°ú´Â "+h);	
+				System.out.println(n+s+n2+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+h);	
 			}
 			
 		}
 		else {
-			System.out.println("¿¬»êÀÚ´Â +,-,*,/ Áß¿¡¼­ ¼±ÅÃÇØÁÖ½Ê½Ã¿À");
+			System.out.println("ì—°ì‚°ìëŠ” +,-,*,/ ì¤‘ì—ì„œ ì„ íƒí•´ì£¼ì‹­ì‹œì˜¤");
 		}
 
 	}

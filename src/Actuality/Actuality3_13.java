@@ -9,14 +9,14 @@ public class Actuality3_13 {
 			int rest = i%10;
 			if(share==3 || share==6 || share==9) {
 				if(rest==3 || rest==6 || rest==9) {
-					System.out.println(i+" �ڼ� ¦¦");
+					System.out.println(i+" 박수 짝짝");
 				}
 				else {
-					System.out.println(i+" �ڼ� ¦");
+					System.out.println(i+" 박수 짝");
 				}
 			}
 			if(rest==3||rest==6||rest==9) {
-				System.out.println(i+" �ڼ� ¦");
+				System.out.println(i+" 박수 짝");
 			}
 		}
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Actuality2_4 {
 
 	public static void main(String[] args) {
-		System.out.print("Á¤¼ö 3°³ ÀÔ·Â>>");
+		System.out.print("ì •ìˆ˜ 3ê°œ ì…ë ¥>>");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		int num2 = sc.nextInt();
@@ -35,7 +35,7 @@ public class Actuality2_4 {
 				middle=num2;
 			}
 		}
-		System.out.println("Áß°£°ªÀº "+middle);
+		System.out.println("ì¤‘ê°„ê°’ì€ "+middle);
 	}
 
 }
